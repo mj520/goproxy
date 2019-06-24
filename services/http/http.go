@@ -12,16 +12,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/snail007/goproxy/services"
-	"github.com/snail007/goproxy/services/kcpcfg"
-	"github.com/snail007/goproxy/utils/datasize"
-	"github.com/snail007/goproxy/utils/dnsx"
-	"github.com/snail007/goproxy/utils/iolimiter"
-	"github.com/snail007/goproxy/utils/lb"
-	"github.com/snail007/goproxy/utils/mapx"
+	"proxy/services"
+	"proxy/services/kcpcfg"
+	"proxy/utils/datasize"
+	"proxy/utils/dnsx"
+	"proxy/utils/iolimiter"
+	"proxy/utils/lb"
+	"proxy/utils/mapx"
 
-	"github.com/snail007/goproxy/utils"
-	"github.com/snail007/goproxy/utils/conncrypt"
+	"proxy/utils"
+	"proxy/utils/conncrypt"
 
 	"golang.org/x/crypto/ssh"
 )

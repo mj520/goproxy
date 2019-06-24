@@ -5,7 +5,7 @@ import (
 	"io"
 	"net"
 
-	lbuf "github.com/snail007/goproxy/core/lib/buf"
+	lbuf "proxy/core/lib/buf"
 )
 
 var (

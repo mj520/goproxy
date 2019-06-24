@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
-	socks5c "github.com/snail007/goproxy/core/lib/socks5"
-	socks5 "github.com/snail007/goproxy/core/proxy/client/socks5"
+	socks5c "proxy/core/lib/socks5"
+	socks5 "proxy/core/proxy/client/socks5"
 )
 
 // A Dialer is a means to establish a connection.

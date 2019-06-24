@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	ctransport "github.com/snail007/goproxy/core/cs/client"
-	stransport "github.com/snail007/goproxy/core/cs/server"
+	ctransport "proxy/core/cs/client"
+	stransport "proxy/core/cs/server"
 )
 
 func TestTCPS(t *testing.T) {

@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/snail007/goproxy/core/lib/kcpcfg"
-	compressconn "github.com/snail007/goproxy/core/lib/transport"
-	encryptconn "github.com/snail007/goproxy/core/lib/transport/encrypt"
-	"github.com/snail007/goproxy/core/dst"
+	"proxy/core/lib/kcpcfg"
+	compressconn "proxy/core/lib/transport"
+	encryptconn "proxy/core/lib/transport/encrypt"
+	"proxy/core/dst"
 	kcp "github.com/xtaci/kcp-go"
 )
 

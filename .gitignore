@@ -1,7 +1,7 @@
 /proxy
 /goproxy
-*.exe
-*.exe~
+/*.exe
+/*.exe~
 .*
 *.prof
 !.gitignore
